@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: victim
+spec:
+  containers:
+  - name: victim
+    image: danielsagi/hackbox
