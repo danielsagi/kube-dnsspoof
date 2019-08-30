@@ -2,9 +2,11 @@
 
 Kube-dnsspoof is a POC for DNS spoofing in kubernetes clusters.
 This exploit runs with minimum capabilities, on default installations of kuberentes.
-
 This repository contains all files and related code for running this exploit.  
 
+The following video demonstrates how onw can use this to intercept traffic for specifc domains in a cluster:
+[![asciicast](https://asciinema.org/a/250310.svg)](https://asciinema.org/a/250310)
+Further read on this subject can be done on [this blog post](https://blog.aquasec.com/dns-spoofing-kubernetes-clusters)
 
 ## Prerequisites
 A Kubernetes cluster
