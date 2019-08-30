@@ -44,6 +44,9 @@ Kube-dns:  172.17.0.4 02:42:bb:76:74:f8
 [+] Taking over DNS requests from kube-dns. press Ctrl+C to stop
 ```
 
+#### timeouts
+When proxying alot of requests, the code can hang. to control this, you can pass a timeout via `--forward-timeout`
+
 The steps of the exploit:
 * Deciding whether it can run
 * Discovering relevant mac/ip addresses
